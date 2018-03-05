@@ -1,0 +1,212 @@
+{
+  "id": "bfa2c970-12aa-43f9-ac74-93b174501eb6",
+  "name": "make_madLib",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "make_madlib",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7206616-ea93-4317-82d6-2ac3f0276c11",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name1",
+          "value": "$name1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me a name of a person you know"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "c78d632f-3e21-4de0-9bc0-d7e33a1daaaa",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun1",
+          "value": "$noun1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok. Give me a noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ee447097-2a8a-4948-aa9e-c0433bcf482d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun2",
+          "value": "$noun2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Another noun, please"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1b0846c0-fb99-4c63-b573-a1de31feaa79",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "adjective1",
+          "value": "$adjective1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me an adjective"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "3a8b9ce8-efc2-4d69-8fef-50d76a04c44d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun3",
+          "value": "$noun3",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me another noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "848661bf-f5d9-4e7d-b55d-ce29744da4e5",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bodypart1",
+          "value": "$bodypart1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Name a part of the body"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6e5984bd-45fe-4488-9ed1-b56508246857",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun4",
+          "value": "$noun4",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me another noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "19525e78-bd29-4334-8977-e1fd97ddfb15",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun5",
+          "value": "$noun5",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me another noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a40ce88f-c952-4f67-bca0-24244c066de5",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bodypart2",
+          "value": "$bodypart2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me a name of plural part of the body"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "02dd5c58-a463-4339-abfc-5b58c3b3e502",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun6",
+          "value": "$noun6",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me a plural noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "06239292-2802-42a0-9c93-88d233277a69",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "noun7",
+          "value": "$noun7",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Give me another plural noun"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "0844a01d-9d0d-4805-a560-282935920514",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "adjective2",
+          "value": "$adjective2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "This is here surely the last one. Give me another adjective"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "84944a21-519e-4f18-8739-82631349a16d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "animal1",
+          "value": "$animal1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Actually, this is the last one. Sorry. Give me an animal name"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Want to become an expert in Karate or Kung Fu? You can learn\nmartial $noun6 in three $adjective1 lessons with Master\n$name1 video tape. This best-selling tape\ntakes you step-by-$noun2 through a series of $adjective2\nexercises guaranteed to develop $noun7 in your body and\nmake you strong as a $animal1. In less than a week, you will\nbe able to do one hundred push-ups a day, skip a jumping\n$noun3 for an hour, and climb a $noun5 without losing your\n$bodypart1. And believe it or not, by the end of the month,\nyou\u0027ll not only be eligible for a black $noun1, but be capable\nof breaking a four-inch-thick $noun4 easily with your own two $bodypart2!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510273083741,
+  "fallbackIntent": false,
+  "events": []
+}
